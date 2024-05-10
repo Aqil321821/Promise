@@ -1,6 +1,8 @@
 //use of promise.all
 
 
+// we create a function that will take an endpoint and return data from it 
+
 function getData(endpoint) {
     return new Promise((resolve, reject) => {
         const xhr = new XMLHttpRequest();
